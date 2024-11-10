@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header-section .navbar{
+    background-color: #1b2c39;
+}
+
+ /* .header-section .navbar{
+    background: transparent;
+    position: fixed;
+    width: 100%;
+    z-index: 999999;
+ } */
+
+/*---------- baner-section start-------- */
+.baner-section img {
+    height: 700px;
+}
+
+.baner-section .hedding{
+    width: 700px;
+    margin-left: 300px;
+    text-align: center;
+    color: rgb(255, 253, 253);
+   
+}
+.baner-section .hedding .btn{
+    border: 1px solid blue;
+    transition: 0.5s;
+}
+.baner-section .hedding .btn:hover{
+    transition: 0.5s;
+    background-color: #dd6031;
+}
+
+/*---------- Baner section end-------- */
+
+/* ----Our Course section start--- */
+  
+  .our-popular-course-section h1{
+    color: #dd6031;
+  }
+  .our-popular-course-section .card{
+    border: none;
+    transition: 0.5s;
+    
+  }
+  .our-popular-course-section .card:hover{
+    transition: 0.5;
+    transform: scale(1.1);
+  }
+  .our-popular-course-section .card img{
+    transition: 0.5s;
+    overflow: hidden;
+  }
+  .our-popular-course-section .card img:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+   
+  }
+  .our-popular-course-section .container .price{
+    padding: 6px;
+    border: 1px solid silver;
+    margin-left: 40px;
+    border-radius: 3px;
+    color: rgb(8, 4, 4);
+    transition: 0.5s;
+    display: inline-block;
+}
+.our-popular-course-section .container .price:hover{
+    transition: 0.5s;
+    background-color: #dd6031;
+}
+/* ----Our Course section end--- */
+
+/* --------our galary section  start------------*/
+
+ .Galary-section .container img{
+    transition: 0.5s;
+ }
+ .Galary-section h1{
+    color: #dd6031;
+ }
+
+ .Galary-section .container img:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+ }
+ /* --------our galary section  end------------*/
+
+
+/* ----feedback section start------ */
+.feedback-section .card{
+    border: none;
+    transition: 0.5s;
+}
+.feedback-section h1{
+    color: #dd6031;
+}
+.feedback-section .card:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.feedback-section .card i{
+    color: #dd6031;
+}
+/* ----feedback section end------ */
+
+  /* -- footer section start -- */
+  .footer-section{
+     background-color: #1b2c39;
+  }
+  .footer-section h1{
+    color: #dd6031;
+  }
+  .footer-section .container .row ul{
+    list-style: none;
+    
+  }
+  .footer-section .container .row ul a{
+    text-decoration: none;
+    color: gray;
+    
+  }
+  .footer-section .container .row ul i{
+    line-height: 10px;
+  }
+
+
+  /* ----------footer section end---------*/
+
+  /* ----------footer end section start---------*/
+  
+  .footer-end {
+    height: 40px;
+    background-color: #1b2c39;
+    border: 1px solid white;
+  }
+  .footer-end .container .col i{
+   padding: 10px;
+   color: white;
+   }
+ /* ----------footer end section end---------*/
+
+
+ 
